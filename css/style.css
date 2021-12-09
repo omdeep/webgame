@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.body{
+    background: url("../img/bg.jpg"); 
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#scoreBox{
+    position: absolute;
+    top: 9px;
+    right: 200px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#hiscoreBox{
+    position: absolute;
+    top: 59px;
+    right: 140px;
+    font-size: 39px;
+    font-weight: bold;
+    font-family: 'New Tegomin', serif;
+}
+
+#board{
+    background: linear-gradient(rgb(170, 236, 170), rgb(236, 236, 167));
+    width: 90vmin;
+    height: 92vmin;
+    border: 2px solid black;
+    display: grid;
+    grid-template-rows: repeat(18, 1fr);
+    grid-template-columns: repeat(18, 1fr);
+}
+
+.head{  
+
+    background: linear-gradient(rgb(0, 100, 0), rgb(49, 206, 146));
+    border: 2px solid rgb(34, 4, 34); 
+    transform: scale(1.02);
+    border-radius: 9px; 
+    transform: rotate(45deg);
+}
+
+.snake{
+    background-color: rgb(23, 241, 52);
+    border: 2px solid rgb(231, 7, 7); 
+    border-radius: 12px;
+}
+
+.food{
+    background: linear-gradient(rgb(15, 49, 163), purple);
+    border-width: .25vmin solid black;
+    border-radius: 18px;
+}
+
+
+
+body {
+  overflow-x: hidden;
+  font-family: 'IBM Plex Sans', sans-serif;
+  color: #505962;
+  background-image: url("img/snake.jpg");
+}
+
+
+.carousel-inner img {
+  width: 100%;
+  height: 100%;
+}
+
+.btn-purple {
+  border-color: #8366B0;
+  background-color: #8366B0;
+  color: white;
+  margin: 1rem;
+}
+
+.btn-purple:hover,
+.btn-purple:focus {
+  border-color: #594781;
+  background-color: #594781;
+  color: white;
+}
+
+.feature img {
+  padding: 1.5rem;
+}
+
+footer {
+  background-color: #40474e;
+  background-size: cover;
+  color: white;
+}
+
+footer .row {
+  padding: 1.5rem 0 4rem;
+  line-height: 2rem;
+}
+
+footer img {
+  margin: 1.5rem 0;
+}
+
+footer h3 {
+  margin: 1.5rem 0;
+}
+
+/*-- Extra Bootstrap Column Padding --*/
+
+[class*="col-"] {
+  padding: 1rem;
+}
+
+
+/*-- Bhuv login CSS --*/
+.login-box {
+  max-width: 700px;
+  float: none;
+  margin: 150px auto;
+}
+
+.register-box {
+  background: rgba (211, 211, 211, 0.5);
+  padding: 30px;
+}
+
+.form-control {
+  background-color: white !important;
+
+}
+
+.jumbo-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border-radius: 50%;
+}
+
+.three-col {
+  background-color: #7ee8fa;
+  background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+  height: 62vh;
+
+}
+
+.logo {
+  width: 70px;
+  height: auto;
+}
+
+.game-size {
+  padding-top: 30px;
+  width: 80%;
+  height: auto;
+}
